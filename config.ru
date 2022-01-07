@@ -13,3 +13,10 @@ use Rack::JSONBodyParser
 
 # Our application
 run ApplicationController
+use GroceryItemsController
+use InventoryItemsController
+use PurchasesController
+use RecipeIngredientsController
+use RecipesController
+use ShoppingListItemsController
+use SpoilDatesController
